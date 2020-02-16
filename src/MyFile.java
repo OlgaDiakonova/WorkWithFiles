@@ -18,7 +18,9 @@ public class MyFile {
                 int i;
                 while ((i = fileReader.read()) != -1){
                     fileWriter.write(i);
+
                 }
+                System.out.println("Data was copied into the file");
 
             }
 
